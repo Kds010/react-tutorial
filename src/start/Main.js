@@ -1,5 +1,6 @@
 import React from 'react';
-import ThinkInReact from '../pages/think-in-react/thinkInReact1';
+// import PackingList from '../pages/ConditionalRendering';
+import RenderingList from '../pages/rendering-list/Renderinglist';
 
 function Header() {
   return (
@@ -13,7 +14,7 @@ function Main() {
   return (
       <div>
         <Header />
-        <ThinkInReact />
+        <RenderingList />
       </div>
   );
 }
